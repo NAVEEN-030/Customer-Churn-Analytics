@@ -1,0 +1,5 @@
+import os
+
+os.makedirs("../data/engineered", exist_ok=True)
+
+df_encoded.to_csv("../data/engineered/customer_churn_engineered.csv", index=False)
